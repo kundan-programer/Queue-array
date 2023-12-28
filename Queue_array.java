@@ -31,7 +31,7 @@ class Queue1 {
   }
 
   void Dequeue() {
-    if (f == -1 && r == -1) {
+    if (f > r ) {
       System.out.println("UnderFlow");
     }
 
